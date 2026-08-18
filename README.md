@@ -1,6 +1,6 @@
 # JUnit Testing Lab
 
-## Learning Objectives
+#### Learning Objectives
 
 * Master the fundamentals of unit testing with JUnit framework
 * Implement method-driven solutions for mathematical and string processing problems
@@ -8,7 +8,7 @@
 * Develop skills in edge case identification and boundary testing
 * Build confidence in code validation through automated testing
 
-## Introduction
+#### Introduction
 
 Unit testing is a crucial aspect of software development that ensures individual components of your code work correctly.
 In this lab, you will implement five core methods that demonstrate fundamental programming concepts including arithmetic
@@ -18,11 +18,11 @@ thoroughly tested using the JUnit framework to validate functionality across var
 This hands-on approach will reinforce your understanding of method design while introducing you to professional testing
 practices used in real-world software development.
 
-## Requirements
+#### Requirements
 
 Implement the following methods in Java and create comprehensive JUnit test suites for each:
 
-### Method 1: Sum Calculator
+#### Method 1: Sum Calculator
 
 **Method:** `getTotal(int a, int b)`
 
@@ -31,7 +31,7 @@ Implement the following methods in Java and create comprehensive JUnit test suit
 - **Return:** Integer sum of the inputs
 - **Testing Focus:** Positive numbers, negative numbers, zero values, integer overflow scenarios
 
-### Method 2: Even Number Checker
+#### Method 2: Even Number Checker
 
 **Method:** `isEven(int number)`
 
@@ -40,7 +40,7 @@ Implement the following methods in Java and create comprehensive JUnit test suit
 - **Return:** `true` if even, `false` if odd
 - **Testing Focus:** Positive/negative even numbers, positive/negative odd numbers, zero
 
-### Method 3: Vowel Detection
+#### Method 3: Vowel Detection
 
 **Method:** `isVowel(char character)`
 
@@ -51,7 +51,7 @@ Implement the following methods in Java and create comprehensive JUnit test suit
   method
 - **Testing Focus:** Uppercase/lowercase vowels, consonants, special characters, numbers
 
-### Method 4: Prime Number Validator
+#### Method 4: Prime Number Validator
 
 **Method:** `isPrime(int number)`
 
@@ -61,7 +61,7 @@ Implement the following methods in Java and create comprehensive JUnit test suit
 - **Examples:** 5 is prime (divisors: 1, 5), 6 is not prime (divisors: 1, 2, 3, 6)
 - **Testing Focus:** Known primes (2, 3, 5, 7, 11), composite numbers, edge cases (0, 1, negative numbers)
 
-### Method 5: Palindrome Checker
+#### Method 5: Palindrome Checker
 
 **Method:** `isPalindrome(int number)`
 
@@ -71,7 +71,7 @@ Implement the following methods in Java and create comprehensive JUnit test suit
 - **Examples:** 5, 121, 3443, 123454321 are palindromes
 - **Testing Focus:** Single digits, multi-digit palindromes, non-palindromes, large numbers
 
-### Bonus Method: Word Length Filter
+#### Bonus Method: Word Length Filter
 
 **Method:** `filterLongWords(String[] words, int threshold)`
 
@@ -80,9 +80,9 @@ Implement the following methods in Java and create comprehensive JUnit test suit
 - **Return:** Array of strings containing only words exceeding the threshold length
 - **Testing Focus:** Empty arrays, arrays with short/long words, boundary conditions
 
-## Implementation Requirements
+#### Implementation Requirements
 
-### Main Class Structure
+#### Main Class Structure
 
 ```java
 public class LabMethods {
@@ -95,7 +95,7 @@ public class LabMethods {
 }
 ```
 
-### JUnit Test Class Structure
+#### JUnit Test Class Structure
 
 ```java
 import org.junit.jupiter.api.Test;
@@ -108,7 +108,7 @@ public class LabMethodsTest {
 }
 ```
 
-## Testing Guidelines
+#### Testing Guidelines
 
 For each method, create test cases that cover:
 
@@ -117,7 +117,7 @@ For each method, create test cases that cover:
 - Error Condition Testing: Invalid inputs, unexpected scenarios
 - Comprehensive Coverage: Multiple test scenarios per method to ensure reliability
 
-### Example Test Structure
+#### Example Test Structure
 
 ```java
 @Test
@@ -128,7 +128,7 @@ void testMethodName_ExpectedBehavior_Condition(){
 }
 ```
 
-## Additional Resources
+#### Additional Resources
 
 - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
 - [JUnit 5 API Documentation](https://junit.org/junit5/docs/current/api/)
